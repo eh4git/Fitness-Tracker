@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const MONGODB_URI = process.env.MONGODB_URL || "mongodb://localhost/workouts";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workouts";
 const options = {
   useNewUrlParser: true,
   useCreateIndex: true,
